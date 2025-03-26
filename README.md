@@ -1,35 +1,149 @@
-# **Android Java Cheat Sheet**
+# 📱 **Android Java** 🎯  
 
-| Feature                         | Description                                   |  
-|---------------------------------|-----------------------------------------------|  
-| [Auto Detect Updated Version of App](https://github.com/potatoscript/android/wiki/Update-App) | Automatically check and update app versions. |  
-| [Button](https://github.com/potatoscript/android/wiki/Button) | Implement `onClick` functionality for buttons. |  
-| [Camera](https://github.com/potatoscript/android/wiki/Camera) | Capture photos using the device camera. |  
-| [Call a Method in MainActivity from Another Class](https://github.com/potatoscript/android/wiki/Call-Method-with-instance) | Use an instance to retrieve values or call methods from another class. |  
-| [Chart](https://github.com/potatoscript/android/wiki/Chart) | Create charts using the [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) library. |  
-| [Color Picker](https://github.com/potatoscript/android/wiki/Color-Picker) | Select colors from a palette using `onTouch` events. |  
-| [Connect to MySQL](https://github.com/potatoscript/android/wiki/Connect-to-MySQL) | Implement login functionality with PHP and MySQL. |  
-| [Connect to SQLite](https://github.com/potatoscript/android/wiki/Connect-to-SQLite) | Use SQLite for local device database management. |  
-| [Delay Handler](https://github.com/potatoscript/android/wiki/Delay) | Use `postDelayed` to handle delays. |  
-| [Drag and Drop with ButterKnife](https://github.com/potatoscript/android/wiki/Drag-n-Drop) | Simplify drag-and-drop using the ButterKnife library. |  
-| [Drag, Drop, and Swipe](https://github.com/potatoscript/android/wiki/Drag-n-Drop-Swipe) | Implement drag, drop, and swipe item features. |  
-| [EditText](https://github.com/potatoscript/android/wiki/EditText) | Work with input fields effectively. |  
-| [Gestures](https://github.com/potatoscript/android/wiki/Gestures) | Detect and respond to gesture inputs. |  
-| [GridLayout](https://github.com/potatoscript/android/wiki/GridLayout) | Design layouts using a grid structure. |  
-| [ImageView](https://github.com/potatoscript/android/wiki/ImageView) | Load images from the server or internet URLs. |  
-| [List](https://github.com/potatoscript/android/wiki/List) | Implement and manage lists in your app. |  
-| [Page Changing](https://github.com/potatoscript/android/wiki/Page-Changing) | Navigate between pages or activities. |  
-| [Publish to Play Store Console](https://github.com/potatoscript/android/wiki/Public-to-Play-Store) | Guide for publishing your app on the Play Store. |  
-| Random Number                  | Use `final int dice1 = new Random().nextInt(6) + 1;` to generate numbers in the range `[1,6]`. |  
-| [RecyclerView](https://github.com/potatoscript/android/wiki/RecyclerView) | Create dynamic and efficient lists using RecyclerView. |  
-| [Repeat Method](https://github.com/potatoscript/android/wiki/Repeat) | Use `Runnable` to execute repeated tasks. |  
-| [Show Keyboard for Older Devices](https://github.com/potatoscript/android/wiki/Show-Keyboard-in-old-handphone) | Fix keyboard issues on older phones. |  
-| [Sound](https://github.com/potatoscript/android/wiki/Sound) | Add music or sound effects to your app. |  
-| [String](https://github.com/potatoscript/android/wiki/String) | Split and manipulate strings efficiently. |  
-| [Toolbar Menu](https://github.com/potatoscript/android/wiki/Toolbar) | Create and customize a toolbar menu. |  
-| [Toolbar Search Item](https://github.com/potatoscript/android/wiki/Toolbar-Search-Item) | Add and configure a search item in the toolbar. |  
-| [QR Code Generator](https://github.com/potatoscript/android/wiki/QR-Code-Making) | Generate custom QR codes in your app. |  
-| [QR Code Scanner](https://github.com/potatoscript/android/wiki/QR-Scanner) | Scan QR codes and barcodes. |  
+
+
+## 📝 **Introduction to Android Java**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [📚 What is Android?](https://github.com/potatoscript/android/wiki/Introduction-to-Android) | Introduction to Android operating system and its ecosystem. |
+| [☕ Why Java for Android?](https://github.com/potatoscript/android/wiki/Why-Java-for-Android) | Learn why Java is the most popular language for Android development. |
+| [📱 Understanding Android Architecture](https://github.com/potatoscript/android/wiki/Android-Architecture) | Overview of Android components: Activities, Services, Broadcast Receivers, and Content Providers. |
+| [🎨 Introduction to Android UI](https://github.com/potatoscript/android/wiki/Android-UI) | Learn how to create beautiful user interfaces with layouts and views. |
+
+---
+
+## 💻 **Installation and Setup**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [⚙️ Install Android Studio](https://github.com/potatoscript/android/wiki/Install-Android-Studio) | Step-by-step guide to installing Android Studio on Windows, Mac, and Linux. |
+| [🔧 Set Up Android Emulator](https://github.com/potatoscript/android/wiki/Setup-Emulator) | Learn how to create and run a virtual Android device using AVD Manager. |
+| [📡 Enable USB Debugging on Your Phone](https://github.com/potatoscript/android/wiki/USB-Debugging) | Connect your Android phone to your PC for testing with USB debugging. |
+| [🎯 First Android Project Setup](https://github.com/potatoscript/android/wiki/First-Project) | Create and configure your first Android project. |
+
+---
+
+## 🧠 **Java Basics for Android**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🔤 Variables and Data Types](https://github.com/potatoscript/android/wiki/Variables) | Understand Java variables, data types, and how to store information. |
+| [🔁 Loops and Conditionals](https://github.com/potatoscript/android/wiki/Loops-and-Conditionals) | Master `if-else`, `switch`, `for`, and `while` loops. |
+| [🧩 Functions and Methods](https://github.com/potatoscript/android/wiki/Functions) | Create reusable blocks of code using methods. |
+| [📚 Object-Oriented Programming Basics](https://github.com/potatoscript/android/wiki/OOP-Basics) | Learn OOP concepts like classes, objects, inheritance, and polymorphism. |
+| [📝 Exception Handling](https://github.com/potatoscript/android/wiki/Exception-Handling) | Handle errors gracefully using `try`, `catch`, and `finally`. |
+
+---
+
+## 📱 **Android Project Structure**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [📂 Understanding Project Folders](https://github.com/potatoscript/android/wiki/Project-Structure) | Learn the structure of Android projects — `res`, `manifest`, `src`, and more. |
+| [📜 AndroidManifest.xml Explained](https://github.com/potatoscript/android/wiki/AndroidManifest) | Define app permissions, activities, and application settings. |
+| [🎨 Understanding Res Folder](https://github.com/potatoscript/android/wiki/Res-Folder) | Work with layout files, drawables, and string resources. |
+| [🏗️ Build Gradle Basics](https://github.com/potatoscript/android/wiki/Build-Gradle) | Configure Gradle to manage dependencies and project settings. |
+
+---
+
+## 🎨 **Building the User Interface (UI)**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [📏 Layouts: Linear, Relative, Constraint](https://github.com/potatoscript/android/wiki/Layouts) | Design your app using different types of layouts. |
+| [🔘 Buttons and Click Listeners](https://github.com/potatoscript/android/wiki/Buttons) | Add buttons and handle click events. |
+| [📝 EditText for User Input](https://github.com/potatoscript/android/wiki/EditText) | Capture and validate user input using `EditText`. |
+| [📸 ImageView to Display Images](https://github.com/potatoscript/android/wiki/ImageView) | Display images dynamically in your app. |
+| [🧩 RecyclerView for Lists](https://github.com/potatoscript/android/wiki/RecyclerView) | Create dynamic lists with `RecyclerView` and adapters. |
+| [🔎 Toolbar and Menu Basics](https://github.com/potatoscript/android/wiki/Toolbar) | Add a custom toolbar and options menu to your app. |
+
+---
+
+## 🚀 **Activity and Fragment Management**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🧭 Introduction to Activities](https://github.com/potatoscript/android/wiki/Activities) | Learn how to create and manage activities. |
+| [🔄 Passing Data Between Activities](https://github.com/potatoscript/android/wiki/Pass-Data) | Send and receive data using `Intent`. |
+| [🔘 Fragments and Fragment Transactions](https://github.com/potatoscript/android/wiki/Fragments) | Create and manage multiple fragments dynamically. |
+| [🎥 Fragment to Fragment Communication](https://github.com/potatoscript/android/wiki/Fragment-Communication) | Pass data between fragments using interfaces. |
+
+---
+
+## 📡 **Networking and APIs**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🌐 Introduction to REST APIs](https://github.com/potatoscript/android/wiki/REST-API) | Learn what REST APIs are and how they work. |
+| [📡 Fetch Data with Volley](https://github.com/potatoscript/android/wiki/Volley) | Use `Volley` to make network requests. |
+| [🔗 Connect with Retrofit](https://github.com/potatoscript/android/wiki/Retrofit) | Connect to APIs using `Retrofit` for efficient data transfer. |
+| [🔒 Secure API Requests](https://github.com/potatoscript/android/wiki/Secure-API) | Add authentication and secure API requests. |
+| [📤 Uploading Files to Server](https://github.com/potatoscript/android/wiki/File-Upload) | Upload images, videos, and files to a server. |
+
+---
+
+## 💾 **Data Persistence and Storage**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [📚 Shared Preferences for Data Storage](https://github.com/potatoscript/android/wiki/Shared-Preferences) | Save small amounts of data locally using SharedPreferences. |
+| [📂 Working with SQLite](https://github.com/potatoscript/android/wiki/SQLite) | Store and manage structured data using SQLite. |
+| [🏢 Room Database Integration](https://github.com/potatoscript/android/wiki/Room) | Simplify database operations with `Room`. |
+| [🌩️ Firebase Realtime Database](https://github.com/potatoscript/android/wiki/Firebase) | Sync data in real-time using Firebase Database. |
+| [🔐 Encrypting Local Data](https://github.com/potatoscript/android/wiki/Encrypt-Data) | Secure user data using AES encryption. |
+
+---
+
+## 🔔 **Push Notifications and Background Tasks**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [📡 Introduction to Firebase Cloud Messaging (FCM)](https://github.com/potatoscript/android/wiki/FCM) | Learn how to send and receive push notifications. |
+| [🔔 Implement Push Notifications](https://github.com/potatoscript/android/wiki/Push-Notifications) | Configure and customize push notifications. |
+| [🔄 Background Sync with WorkManager](https://github.com/potatoscript/android/wiki/WorkManager) | Schedule background tasks using `WorkManager`. |
+
+---
+
+## 🎥 **Media and File Management**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [📸 Capture Photos with Camera](https://github.com/potatoscript/android/wiki/Camera) | Use the device camera to take pictures. |
+| [🎥 Record and Upload Videos](https://github.com/potatoscript/android/wiki/Video-Upload) | Record and upload videos to the server. |
+| [📁 File Access and Management](https://github.com/potatoscript/android/wiki/File-Management) | Manage files and storage access permissions. |
+| [🔈 Add Audio and Music](https://github.com/potatoscript/android/wiki/Audio) | Add background music and sound effects. |
+
+---
+
+## 🔐 **Security and Permissions**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🔒 Secure User Authentication](https://github.com/potatoscript/android/wiki/Auth) | Add login, registration, and password reset features. |
+| [🛡️ Managing App Permissions](https://github.com/potatoscript/android/wiki/Permissions) | Request and manage dangerous permissions dynamically. |
+| [🔐 Encrypting Local Storage](https://github.com/potatoscript/android/wiki/Encryption) | Protect sensitive user data with encryption. |
+
+---
+
+## 🧩 **Advanced Android Concepts**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🎮 Game Development with Canvas](https://github.com/potatoscript/android/wiki/Game-Canvas) | Create simple 2D games using `Canvas` and `SurfaceView`. |
+| [🤖 AI with ML Kit](https://github.com/potatoscript/android/wiki/MLKit) | Add machine learning features to your app. |
+| [🌙 Dark Mode and Theme Switching](https://github.com/potatoscript/android/wiki/Dark-Mode) | Implement dark mode and custom themes. |
+| [🕹️ Bluetooth and NFC Communication](https://github.com/potatoscript/android/wiki/Bluetooth) | Send and receive data over Bluetooth and NFC. |
+| [📍 Access Device Location](https://github.com/potatoscript/android/wiki/Location) | Fetch GPS and network-based location. |
+| [📦 Dependency Injection with Dagger](https://github.com/potatoscript/android/wiki/Dagger) | Use `Dagger` for dependency injection. |
+
+---
+
+## 📤 **Publishing and Deployment**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🚀 Preparing for Play Store Release](https://github.com/potatoscript/android/wiki/Play-Store-Preparation) | Get your app ready for publishing on the Play Store. |
+| [📢 Marketing and App Monetization](https://github.com/potatoscript/android/wiki/Monetization) | Learn how to monetize your app with ads and in-app purchases. |
+| [🔍 Analyzing User Behavior with Analytics](https://github.com/potatoscript/android/wiki/Analytics) | Track user activity using Google Analytics or Firebase. |
+
+---
+
+## 🛠️ **Debugging, Testing, and Optimization**  
+| **Title** | **Description** |
+|-----------|----------------|
+| [🐞 Debugging Android Apps](https://github.com/potatoscript/android/wiki/Debugging) | Learn how to fix bugs using `Logcat` and breakpoints. |
+| [⚡ Optimizing App Performance](https://github.com/potatoscript/android/wiki/Optimization) | Improve app performance by avoiding memory leaks. |
+| [🧪 Unit and UI Testing](https://github.com/potatoscript/android/wiki/Testing) | Automate testing to ensure app stability. |
+| [📊 Analyzing Crash Logs](https://github.com/potatoscript/android/wiki/Crash-Logs) | Diagnose and fix crashes using ANR and crash logs. |
+
 
 ---
 
