@@ -1,3 +1,39 @@
+# **Android Java Cheat Sheet**
+
+| Feature                         | Description                                   |  
+|---------------------------------|-----------------------------------------------|  
+| [Auto Detect Updated Version of App](https://github.com/potatoscript/android/wiki/Update-App) | Automatically check and update app versions. |  
+| [Button](https://github.com/potatoscript/android/wiki/Button) | Implement `onClick` functionality for buttons. |  
+| [Camera](https://github.com/potatoscript/android/wiki/Camera) | Capture photos using the device camera. |  
+| [Call a Method in MainActivity from Another Class](https://github.com/potatoscript/android/wiki/Call-Method-with-instance) | Use an instance to retrieve values or call methods from another class. |  
+| [Chart](https://github.com/potatoscript/android/wiki/Chart) | Create charts using the [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) library. |  
+| [Color Picker](https://github.com/potatoscript/android/wiki/Color-Picker) | Select colors from a palette using `onTouch` events. |  
+| [Connect to MySQL](https://github.com/potatoscript/android/wiki/Connect-to-MySQL) | Implement login functionality with PHP and MySQL. |  
+| [Connect to SQLite](https://github.com/potatoscript/android/wiki/Connect-to-SQLite) | Use SQLite for local device database management. |  
+| [Delay Handler](https://github.com/potatoscript/android/wiki/Delay) | Use `postDelayed` to handle delays. |  
+| [Drag and Drop with ButterKnife](https://github.com/potatoscript/android/wiki/Drag-n-Drop) | Simplify drag-and-drop using the ButterKnife library. |  
+| [Drag, Drop, and Swipe](https://github.com/potatoscript/android/wiki/Drag-n-Drop-Swipe) | Implement drag, drop, and swipe item features. |  
+| [EditText](https://github.com/potatoscript/android/wiki/EditText) | Work with input fields effectively. |  
+| [Gestures](https://github.com/potatoscript/android/wiki/Gestures) | Detect and respond to gesture inputs. |  
+| [GridLayout](https://github.com/potatoscript/android/wiki/GridLayout) | Design layouts using a grid structure. |  
+| [ImageView](https://github.com/potatoscript/android/wiki/ImageView) | Load images from the server or internet URLs. |  
+| [List](https://github.com/potatoscript/android/wiki/List) | Implement and manage lists in your app. |  
+| [Page Changing](https://github.com/potatoscript/android/wiki/Page-Changing) | Navigate between pages or activities. |  
+| [Publish to Play Store Console](https://github.com/potatoscript/android/wiki/Public-to-Play-Store) | Guide for publishing your app on the Play Store. |  
+| Random Number                  | Use `final int dice1 = new Random().nextInt(6) + 1;` to generate numbers in the range `[1,6]`. |  
+| [RecyclerView](https://github.com/potatoscript/android/wiki/RecyclerView) | Create dynamic and efficient lists using RecyclerView. |  
+| [Repeat Method](https://github.com/potatoscript/android/wiki/Repeat) | Use `Runnable` to execute repeated tasks. |  
+| [Show Keyboard for Older Devices](https://github.com/potatoscript/android/wiki/Show-Keyboard-in-old-handphone) | Fix keyboard issues on older phones. |  
+| [Sound](https://github.com/potatoscript/android/wiki/Sound) | Add music or sound effects to your app. |  
+| [String](https://github.com/potatoscript/android/wiki/String) | Split and manipulate strings efficiently. |  
+| [Toolbar Menu](https://github.com/potatoscript/android/wiki/Toolbar) | Create and customize a toolbar menu. |  
+| [Toolbar Search Item](https://github.com/potatoscript/android/wiki/Toolbar-Search-Item) | Add and configure a search item in the toolbar. |  
+| [QR Code Generator](https://github.com/potatoscript/android/wiki/QR-Code-Making) | Generate custom QR codes in your app. |  
+| [QR Code Scanner](https://github.com/potatoscript/android/wiki/QR-Scanner) | Scan QR codes and barcodes. |  
+
+---
+
+
 # [Android Java Tutorial](https://github.com/potatoscript/android/wiki)
 
 ## Table of Contents
